@@ -1,0 +1,9 @@
+#menu ul li {
+	 list-style: none; 
+	background: blue;
+	color: red;
+}
+#menu ul ul > p {
+	color: blue;
+	background: pink;
+}

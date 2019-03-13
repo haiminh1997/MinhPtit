@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<style type="text/css" media="screen">
+		.absolute {
+			width: 300px;
+			height: 300px;
+			background: red;
+		}
+		.relative {
+			font-size: 2em;
+		}
+		.percent {
+			background: #6746a2;
+			width: 50%;
+			height: 200px;
+		}
+	</style>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1>Đơn vị đo trong CSS</h1>
+	<h2>Đơn vị đo tuyệt đối (px)</h2>
+	<p class="absolute"> Đơn vị đo tuyệt đối</p>
+	<p class="relative">Đơn vị đo tương đối em (2em=32px)
+		Mặc định 1em=16px
+		Nhưng sự chuyển đổi này phụ thuộc vào css thẻ body
+		Ví dụ thẻ body có font-size=20px thì 1em=20px
+	</p>
+	<div class="row" style="width: 500px; height: 200px; background: yellow">
+		<p class="percent">Đơn vị đo %</p>
+	</div>
+	<p class="percent2">Đơn vị đo %</p>
+
+</body>
+</html>
