@@ -1,0 +1,8 @@
+.general {
+	background: #333333;
+	color: #fff;
+	padding: 25px;
+	margin-bottom: 3em;
+	width: 100px; /* thuộc tính width và height chỉ có tác dụng với block ,k có tác dụng với inline */
+	height: 50px;
+}

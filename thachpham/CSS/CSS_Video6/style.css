@@ -1,0 +1,17 @@
+/*  font-family quy định kiểu phông chữ */
+h1 {
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif
+}
+/* font-style quy định chữ có in nghiêng hay k */
+p {
+	font-style: italic; /* in nghiêng giống oblique */
+	/* normal chữ mặc định  */
+} 
+/* font-weight quy định chữ đậm hay nhat; */
+h2 {
+	font-weight: normal; /* kiểu bt,bold là kiểu in đậm,có thể bao gồm các kiểu số 100-> 900 */
+}
+/* color quy định màu sắc của chữ */
+h3 {
+	color: blue;
+}

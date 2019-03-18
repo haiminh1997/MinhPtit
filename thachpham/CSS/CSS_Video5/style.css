@@ -1,0 +1,26 @@
+#text1 {
+	
+	/* Thuộc tính text-align */
+	/* text-align: center; */ /* căn giữa */
+	/* text-align: left; */  /* căn bên trái */
+	/* text-align: rigth; */  /* căn bên phải */
+	/*  text-align: justify;  */   /* căn đều 2 bên,các dòng bằng nhau */
+
+	/* Thuộc tính text-decoration */
+	/*  text-decoration: none;*/ /* không có gì */
+	/* text-decoration: overline; */ /* gạch trên văn bản */
+	/* text-decoration: underline; */ /*  gạch dưới */
+	 /* text-decoration: line-through; */ /* gạch giữa văn bản */
+	 
+	 /* Thuộc tính text-indent */
+	 /* text-indent: 25px; *//* tạo khoảng trống đầu dòng */
+	 
+	 /* Thuộc tính text-shadow tạo hiệu ứng đổ bóng gồm màu sắc,tọa độ x,tọa độ y, độ mờ */
+	/*   text-shadow: blue 2px 3px 4px;*/
+
+	/* Thuộc tính text-transform viết chữ hoa hoặc thường cho văn bản */
+	/* text-transform: lowercase; */ /*  chữ thường */
+	/* text-transform: uppercase; *//* chữ hoa */
+	
+	
+}
