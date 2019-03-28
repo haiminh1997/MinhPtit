@@ -1,0 +1,16 @@
+* { /* chọn tất cả các thẻ */
+	box-sizing: border-box; /* Các thẻ đều có tổng margin+border+padding+content=width và height  */
+	-moz-box-sizing: border-box; /*  dành cho các trình duyệt cũ  */
+	-webkit-box-sizing: border-box; /* dành cho các trình duyet như gg chrome... */
+
+}
+div {
+	width: 500px;
+	height: 500px;
+	padding: 20px;
+	background-color: blue;
+	border: 5px solid greenyellow;
+	box-sizing: content-box; /*  content-box là giá trị mặc định,margin+border+padding+WIDTH=width */
+	/*border-box : margin+border+padding=width  */
+	/* padding-box: margin+padding+WIDTH=width */
+}

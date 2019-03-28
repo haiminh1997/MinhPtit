@@ -1,0 +1,16 @@
+#div1 {
+	background-color: blue;
+	
+}
+#div2 {
+	background-image: url('a.jpg');
+	height: 300px;
+	width: 500px;
+	background-repeat: no-repeat;/*  k lặp lại */
+	/* repeat-x: lặp theo chiều ngang */
+	/* repeat-y: lặp theo chiều rộng */
+	/* round: lặp xung quanh */
+	background-position: bottom right;/* vị trí của ảnh nền  */
+	background-size: 400px; /*  thiết lập kích cỡ của ảnh nền  */
+	
+}
