@@ -1,0 +1,125 @@
+/* Style cơ bản cho website */
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial,sans-serif;
+	font-weight: 300;
+	color: #333;
+	line-height: 1.254;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #3b8bba;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	
+}
+ a:hover , a:visited {
+ 	color: #265778;
+ }
+
+ /* Chia cot wwebsite */
+ 
+ #container {
+ 	padding-left: 150px;
+ 	position: relative;
+ 	left: 0;
+ 	width: 100%;
+ }
+
+ #menu {
+ 	position: fixed;
+ 	height: 100%;
+ 	background: #191818;
+ 	width: 150px;
+ 	left: 0;
+ }
+ /* Menu */
+ #menu {
+ 	
+ }
+ #menu ul {
+ 	list-style: none;
+ 	padding: 0;
+ 	margin: 0;
+ }
+ #menu ul li {
+ 	line-height:2.9em ;
+ 	height: 2.9em;
+ 	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+ 	position: relative;
+ }
+ #menu ul li a {
+ 	display: block;
+ 	color: #fff;
+ 	padding: 0 1em;
+ 	border-bottom: 1px solid #333;
+ }
+ #menu ul li:hover {
+ 	background: #454545;
+ }
+ #menu .sub-menu {
+ 	position: absolute;
+ 	display: none;
+ 	top: 0;
+ 	left: 150px;
+ }
+ #menu ul li:hover .sub-menu {
+ 	display: block;
+ 	background: #191818;
+ }
+
+ /* Content */
+#content {
+	padding: 1em 8em;
+}
+#header, .call-to-action {
+	text-align: center;
+}
+	/* header */
+	#header {}
+	#header #slogan {
+		color: #8997a0;
+		font-size: 0.8em;
+	}
+	.call-to-action {
+		padding: 1.5em 20%;
+		background: #efefef;
+		border: 1px solid #e8e8e8;
+	}
+	.row {
+		overflow: hidden;
+		margin: 1.5em auto;
+	}
+	.row .col {
+		float: left;
+		width: 31%;
+		margin-left: 1em;
+	}
+	.row .col:last-child {
+		float: right;
+		margin-right: 0;
+	}
+	.row .col img {
+		float: left;
+	}
+/* Footer */
+#footer {
+	font-size: 85%;
+	border-top: 1px solid #e6e6e6;
+	color: #838383;
+	padding: 1em 3em;
+}
+
+
