@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Đồng hồ đếm ngược</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css" media="screen">
+		#dongho {
+			color: #2FB4DF;
+			margin: 25px;
+			font-size: 5em;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div id="dongho"></div>
+	<script type="text/javascript" >
+		
+		var a= 20;
+		function demNguoc() {
+			a--;
+			if (a != 0 ){
+				document.getElementById("dongho").innerHTML = a;
+				setTimeout("demNguoc()",1000);
+			}
+			else {
+				document.getElementById("dongho").innerHTML = " Hết thời gian!";
+			}
+		}
+		demNguoc();
+	</script>
+</body>
+</html>
